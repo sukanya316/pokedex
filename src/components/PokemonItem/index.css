@@ -1,0 +1,23 @@
+.pokemon-item-card {
+  list-style-type: none;
+  width: 15vw;
+  margin: 15px;
+}
+.pokemon-img {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  background-color: lightgray;
+}
+.pokemon-img-container {
+  height: 170px;
+  width: 170px;
+  background-color: lightgray;
+}
+.type-btn {
+  background-color: lightskyblue;
+  padding: 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+}

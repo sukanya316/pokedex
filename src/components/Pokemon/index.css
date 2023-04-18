@@ -1,0 +1,63 @@
+.pokemon-items-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 5% 2% 5%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+.search-green-card {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: green;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.advanced-search-container {
+  background-color: gray;
+  color: black;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.surprise-sort-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+}
+.surprise-btn {
+  background-color: dodgerblue;
+  height: 40px;
+  width: 20vw;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.sort-element {
+  height: 40px;
+  width: 20vw;
+  font-size: medium;
+  margin-left: 10px;
+}
+.arrow {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
