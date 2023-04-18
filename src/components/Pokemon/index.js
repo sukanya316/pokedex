@@ -81,7 +81,7 @@ class Pokemon extends Component {
     console.log('pokemon render', pokemons, pokemonsArr)
     return (
       <div className="main-container">
-        <h1> Pokemon</h1>
+        <h1 style={{margin: '0'}}> Pokemon</h1>
         <div className="search-container">
           <div>
             <h2>Name Or Number</h2>
@@ -154,9 +154,15 @@ class Pokemon extends Component {
                 <PokemonItem key={pokemon.number} pokemonData={pokemon} />
               ))}
         </ul>
-        <button type="button" onClick={this.loadMorePokemons}>
-          Load More Pokemon...
-        </button>
+        <div style={{textAlign: 'center'}}>
+          <button
+            type="button"
+            onClick={this.loadMorePokemons}
+            className="load-more-btn"
+          >
+            Load More Pokemon...
+          </button>
+        </div>
       </div>
     )
   }

@@ -1,11 +1,20 @@
+.main-container {
+  background-color: lightgrey;
+  padding: 0;
+  margin: 0;
+}
+
 .pokemon-items-container {
   width: 80vw;
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 2% 5% 2% 5%;
+  margin: 0% 5% 0% 10%;
+  max-height: 100vh;
+  overflow-y: scroll;
 }
 
 .search-container {
@@ -35,10 +44,13 @@
   align-items: center;
 }
 .surprise-sort-container {
+  width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 2%;
+  background-color: white;
+  margin: 0% 5% 0% 10%;
 }
 .surprise-btn {
   background-color: dodgerblue;
@@ -60,4 +72,12 @@
   background-color: white;
   padding: 5px;
   border-radius: 50%;
+}
+.load-more-btn {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
 }

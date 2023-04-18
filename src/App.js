@@ -64,7 +64,7 @@ function DisplayPokemons() {
     pokesData = {...data}
     return <Pokemon pokemons={data} loading={loading} />
   }
-  return ''
+  return <h1 style={{textAlign: 'center'}}>Loading...</h1>
 }
 
 export default function App() {
